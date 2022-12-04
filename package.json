@@ -1,6 +1,7 @@
 {
   "name": "it.stuysu",
   "version": "0.1.0",
+  "description": "The public homepage for the IT department of Stuyvesant High School's Student Union. Based on Pennlabs.org.",
   "private": true,
   "scripts": {
     "dev": "next dev",
