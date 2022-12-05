@@ -18,7 +18,7 @@
         "socials": [
           {
             "type": "github",
-            "url": "https://github.com/YBenPan",
+            "link": "https://github.com/YBenPan",
             "name": "YBenPan"
           },
           {
@@ -43,12 +43,12 @@
         "socials": [
           {
             "type": "github",
-            "url": "https://github.com/frank-cywong",
+            "link": "https://github.com/frank-cywong",
             "name": "frank-cywong"
           },
           {
             "type": "discord",
-            "url": "https://discord.com/channels/@me/757661122936701050",
+            "link": "https://discord.com/channels/@me/757661122936701050",
             "name": "ia1618#3204"
           }
         ]
