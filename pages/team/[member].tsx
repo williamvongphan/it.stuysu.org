@@ -23,6 +23,7 @@ import twitchIcon from "../../public/img/social/logo-twitch.svg";
 import {MemberType} from "../../types/Member";
 import React, {Context} from "react";
 import Footer from "../../components/Footer/Footer";
+import Navigation from "../../components/Navigation/Navigation";
 
 
 function findMember(target: string) {
@@ -129,11 +130,12 @@ const TeamMember: NextPage = (props, context) => {
     return (
         <div>
             <Header title={member?.name} description={member?.bio} />
+            <Navigation />
             <div className={styles.container}>
                 <main className={styles.main}>
                     <div className={"w-2/3"}>
                         <div
-                            className="flex flex-col md:flex-row rounded-lg shadow-lg overflow-hidden py-4 px-4 md:px-8 w-fit">
+                            className="flex flex-col md:flex-row rounded-lg shadow-lg overflow-hidden py-4 px-4 md:px-8 w-fit min-w-[400px]">
                             <div
                                 className="h-48 w-full md:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden mr-2">
                                 <Image
@@ -149,7 +151,7 @@ const TeamMember: NextPage = (props, context) => {
                                 <div>
                                     <div className="text-gray-900 font-bold text-4xl mb-2">{member?.name}</div>
                                     <p className="text-gray-700 text-2xl mb-2">{member?.title}</p>
-                                    <div className="flex flex-wrap justify-center mt-2 mb-2">
+                                    <div className="flex flex-wrap mt-2 mb-2">
 
                                         {
                                             // @ts-ignore

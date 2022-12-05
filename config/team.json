@@ -15,9 +15,9 @@
           "Design",
           "Outreach"
         ],
-        "links": [
+        "socials": [
           {
-            "type": "GitHub",
+            "type": "github",
             "url": "https://github.com/YBenPan",
             "name": "YBenPan"
           },
