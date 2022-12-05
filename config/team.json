@@ -14,6 +14,18 @@
           "Backend",
           "Design",
           "Outreach"
+        ],
+        "links": [
+          {
+            "type": "GitHub",
+            "url": "https://github.com/YBenPan",
+            "name": "YBenPan"
+          },
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/420008251665678346",
+            "name": "ybenp#9050"
+          }
         ]
       },
       {
@@ -27,6 +39,18 @@
           "Backend",
           "Design",
           "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "github",
+            "url": "https://github.com/frank-cywong",
+            "name": "frank-cywong"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/channels/@me/757661122936701050",
+            "name": "ia1618#3204"
+          }
         ]
       },
       {
@@ -86,6 +110,11 @@
             "type": "github",
             "link": "https://github.com/TheEgghead27",
             "name": "TheEgghead27"
+          },
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/474328006588891157",
+            "name": "TheEgghead27#6998"
           }
         ]
       },
@@ -110,7 +139,7 @@
             "type": "discord",
             "link": "https://discord.com/channels/@me/281203884406603778",
             "name": "ACPlayGames#1380"
-          }
+          },
         ]
       },
       {
@@ -167,6 +196,13 @@
           "Backend",
           "Design",
           "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/537953890251964417",
+            "name": "Hiei#1550"
+          }
         ]
       },
       {
@@ -183,8 +219,8 @@
         "socials": [
           {
             "type": "discord",
-            "link": "https://discord.com/channels/@me/target",
-            "name": "update later"
+            "link": "https://discord.com/channels/@me/349669963306500128",
+            "name": "vislaist#1846"
           }
         ]
       },
@@ -202,8 +238,8 @@
         "socials": [
           {
             "type": "discord",
-            "link": "https://discord.com/channels/@me/target",
-            "name": "update later"
+            "link": "https://discord.com/channels/@me/637822694607290371",
+            "name": "Yuchen Pan#1158"
           }
         ]
       },
@@ -240,8 +276,27 @@
         "socials": [
           {
             "type": "discord",
-            "link": "https://discord.com/channels/@me/target",
-            "name": "update later"
+            "link": "https://discord.com/channels/@me/776539322244661269",
+            "name": "Rahuldeb5#8703"
+          }
+        ]
+      },
+      {
+        "name": "Gus Watkins",
+        "title": "Member",
+        "image": "https://http.cat/429",
+        "bio": "Is it a bot? Is it a very advanced AI? No, it's just reading through a bunch of proxies and sending requests to https://ipv4.games/claim?name=gu5.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/639966783213928448",
+            "name": "thegu5#4708"
           }
         ]
       }
