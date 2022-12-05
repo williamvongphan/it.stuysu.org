@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Leadership",
+    "description": "Our leadership team is made up of experienced developers and designers who are passionate about building great products. They are the ones who set the vision and direction for SU IT.",
+    "members": [
+      {
+        "name": "Yuhao \"Ben\" Pan",
+        "title": "Co-director",
+        "image": "https://http.cat/100",
+        "bio": "Inordinately tall. Probably a robot.",
+        "roles": [
+          "Leadership",
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ]
+      },
+      {
+        "name": "Chun Yeung \"Frank\" Wong",
+        "title": "Co-director",
+        "image": "https://http.cat/101",
+        "bio": "In every Stuy Discord server. Does AoC during the day. One hell of a smart guy.",
+        "roles": [
+          "Leadership",
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ]
+      },
+      {
+        "name": "William Vongphanith",
+        "title": "Assistant Director",
+        "image": "https://http.cat/200",
+        "bio": "The legitimate Director of SU IT. I am the power and the glory of SU IT.",
+        "roles": [
+          "Leadership",
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "github",
+            "link": "https://github.com/williamvonghan",
+            "name": "williamvonghan"
+          },
+          {
+            "type": "youtube",
+            "link": "https://www.youtube.com/channel/UCyouz92tCZ4JrHqVuv8Y_gQ",
+            "name": "ThunderRedStar"
+          },
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/691009964570968144",
+            "name": "ThunderRedStar#6904"
+          },
+          {
+            "type": "stackoverflow",
+            "link": "https://stackoverflow.com/users/16499723/thunder",
+            "name": "Thunder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Members",
+    "description": "Our members are the ones who make SU IT happen. They're the ones who build the products and services that we offer to the Stuyvesant community.",
+    "members": [
+      {
+        "name": "David Chen",
+        "title": "Member",
+        "image": "https://http.cat/301",
+        "bio": "Not dchen278!",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "github",
+            "link": "https://github.com/TheEgghead27",
+            "name": "TheEgghead27"
+          }
+        ]
+      },
+      {
+        "name": "Anthony Chen",
+        "title": "Member",
+        "image": "https://http.cat/302",
+        "bio": "Hello robgobs,\n\nHello,\n\nHello once again,\n\nI am running for Director of IT (DoIT).",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "github",
+            "link": "https://github.com/achen318",
+            "name": "achen318"
+          },
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/281203884406603778",
+            "name": "ACPlayGames#1380"
+          }
+        ]
+      },
+      {
+        "name": "Naowal Rahman",
+        "title": "Member",
+        "image": "https://http.cat/303",
+        "bio": "Stuyvesant Gamedevs is the best club Stuyvesant has to offer.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "github",
+            "link": "https://github.com/naowalrahman",
+            "name": "naowalrahman"
+          },
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/472812255977668609",
+            "name": "bigBrain++;#4066"
+          },
+          {
+            "type": "reddit",
+            "link": "https://www.reddit.com/user/naowalr",
+            "name": "naowalr"
+          },
+          {
+            "type": "twitch",
+            "link": "https://www.twitch.tv/naowalplayz",
+            "name": "naowalplayz"
+          },
+          {
+            "type": "youtube",
+            "link": "https://www.youtube.com/channel/UCb3x_i1_3cK9JvS8WnASVBg",
+            "name": "NaowalPlayzGames"
+          },
+          {
+            "type": "twitter",
+            "link": "https://twitter.com/UrBoiNaowal",
+            "name": "UrBoiNaowal"
+          }
+        ]
+      },
+      {
+        "name": "John Chandler III",
+        "title": "Member",
+        "image": "https://http.cat/400",
+        "bio": "Young entrepreneur. Probably richer than all of us combined.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ]
+      },
+      {
+        "name": "Vienna Tse",
+        "title": "Member",
+        "image": "https://http.cat/401",
+        "bio": "One of the most outspoken voices in the industry.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/target",
+            "name": "update later"
+          }
+        ]
+      },
+      {
+        "name": "Yuchen Pan",
+        "title": "Member",
+        "image": "https://http.cat/402",
+        "bio": "Founder of Stuyvesant Coded Beats. Has been using Ruby to create music since 2006.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/target",
+            "name": "update later"
+          }
+        ]
+      },
+      {
+        "name": "Randy Sim",
+        "title": "Member",
+        "image": "https://http.cat/403",
+        "bio": "Likes to automate labor in Minecraft. Also has a knack for problem-solving.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/782217735013662782",
+            "name": "randy#4731"
+          }
+        ]
+      },
+      {
+        "name": "Rahul Deb",
+        "title": "Member",
+        "image": "https://http.cat/404",
+        "bio": "C++ compiler.",
+        "roles": [
+          "Frontend",
+          "Backend",
+          "Design",
+          "Outreach"
+        ],
+        "socials": [
+          {
+            "type": "discord",
+            "link": "https://discord.com/channels/@me/target",
+            "name": "update later"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,8 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import fonts */
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('/font/Mona-Sans.ttf') format('truetype');
+  font-weight: 100 900;
+  font-stretch: 0% 200%;
+}
+
+@font-face {
+  font-family: 'Hubot Sans';
+  src: url('/font/Hubot-Sans.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Martian Mono';
+  src: url('/font/Martian-Mono.ttf') format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Mona Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -15,12 +37,6 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+main {
+  padding: 32px 32px 12px !important;
 }
