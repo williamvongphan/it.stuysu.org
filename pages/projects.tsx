@@ -26,7 +26,7 @@ const Projects: NextPage = () => {
                             >
                                 Projects
                             </Text>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-3xl text-center xl:text-left"}
                             >
@@ -34,7 +34,7 @@ const Projects: NextPage = () => {
                             </Text>
                         </div>
                         <div className={"w-2/5"}>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-l text-center xl:text-left"}
                             >

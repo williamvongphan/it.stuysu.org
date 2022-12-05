@@ -5,7 +5,7 @@ import {Text} from "@nextui-org/react";
 const Footer = () => {
     return (<footer className={styles.footer}>
             <div className={styles.container}>
-                <Text
+                <Text // @ts-ignore
                     p
                     className={"text-sm text-center"}
                     css={{

@@ -1,4 +1,4 @@
-import type {NextPage} from 'next'
+import type {GetStaticProps, NextPage} from 'next'
 import Image from 'next/image'
 import styles from '../../styles/Member.module.css'
 import Header from '../../components/Header/Header'
@@ -21,7 +21,7 @@ import redditIcon from "../../public/img/social/logo-reddit.svg";
 import npmIcon from "../../public/img/social/logo-npm.svg";
 import twitchIcon from "../../public/img/social/logo-twitch.svg";
 import {MemberType} from "../../types/Member";
-import React from "react";
+import React, {Context} from "react";
 import Footer from "../../components/Footer/Footer";
 
 
@@ -112,7 +112,9 @@ export const getStaticPaths = async () => {
     };
 }
 
+// @ts-ignore
 export const getStaticProps: GetStaticProps = async (context) => {
+    // @ts-ignore
     const member = findMember(context.params.member as string);
     return {
         props: {
@@ -122,6 +124,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 const TeamMember: NextPage = (props, context) => {
+    // @ts-ignore
     let member: MemberType = props.member;
     return (
         <div>
@@ -147,7 +150,10 @@ const TeamMember: NextPage = (props, context) => {
                                     <div className="text-gray-900 font-bold text-4xl mb-2">{member?.name}</div>
                                     <p className="text-gray-700 text-2xl mb-2">{member?.title}</p>
                                     <div className="flex flex-wrap justify-center mt-2 mb-2">
-                                        {props.member.roles.map((role: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined, key: React.Key | null | undefined) => (
+
+                                        {
+                                            // @ts-ignore
+                                            props.member.roles.map((role: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined, key: React.Key | null | undefined) => (
                                             <span
                                                 className="px-2 py-1 mr-2 text-sm font-medium text-indigo-900 bg-indigo-100 rounded-lg"
                                                 key={key}

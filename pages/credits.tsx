@@ -29,19 +29,19 @@ const Home: NextPage = () => {
                             >
                                 Credits
                             </Text>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-3xl text-center xl:text-left"}
                             >
                                 This page is dedicated to all the people who helped make this website possible. We wanted to express our gratitude to all the people who helped us along the way, and we hope that you will check out their work as well.
                             </Text>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-l text-center xl:text-left"}
                             >
                                 <b>Stuyvesant Student Union</b> - For giving us the opportunity to work on this project, and for providing us with the resources to do so.
                             </Text>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-l text-center xl:text-left"}
                             >

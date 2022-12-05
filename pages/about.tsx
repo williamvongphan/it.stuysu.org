@@ -31,6 +31,7 @@ const Home: NextPage = () => {
                                 Our Mission
                             </Text>
                             <Text
+                                // @ts-ignore
                                 p
                                 className={"text-xl text-center xl:text-left"}
                             >
@@ -69,7 +70,7 @@ const Home: NextPage = () => {
                             >
                                 Founding
                             </Text>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-xl text-center xl:text-left"}
                             >

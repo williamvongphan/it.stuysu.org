@@ -17,6 +17,7 @@ import { Text } from "@nextui-org/react";
 import Footer from "../../components/Footer/Footer";
 
 const Home: NextPage = () => {
+    // @ts-ignore
     return (<div>
             <Header title="Team" description="Team Member"/>
             <div className={styles.container}>
@@ -40,7 +41,7 @@ const Home: NextPage = () => {
                             >
                                 Meet the people behind the scenes
                             </Text>
-                            <Text
+                            <Text // @ts-ignore
                                 p
                                 className={"text-xl text-center xl:text-left"}
                             >
@@ -62,6 +63,7 @@ const Home: NextPage = () => {
                     </div>
                     <div>
                         {team.map((category, key) => (
+                            // @ts-ignore
                             <Category category={category} key={key} />
                         ))}
                     </div>

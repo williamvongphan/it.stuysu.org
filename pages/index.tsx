@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                                 >
                                     For students, by students.
                                 </Text>
-                                <Text
+                                <Text // @ts-ignore
                                     p
                                     className={"text-3xl text-center xl:text-left mb-4"}
                                 >
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                                 >
                                     3000+ students
                                 </Text>
-                                <Text
+                                <Text // @ts-ignore
                                     p
                                     className={"text-xl text-center xl:text-left"}
                                     css={{
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
                                 >
                                     11
                                 </Text>
-                                <Text
+                                <Text // @ts-ignore
                                     p
                                     className={"text-xl text-center xl:text-left"}
                                     css={{
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
                                 >
                                     3
                                 </Text>
-                                <Text
+                                <Text // @ts-ignore
                                     p
                                     className={"text-xl text-center xl:text-left"}
                                     css={{
