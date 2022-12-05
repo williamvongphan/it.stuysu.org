@@ -26,8 +26,8 @@ const Navigation = (props: {}) => {
                 </Link>
             </Navbar.Brand>
             <Navbar.Content hideIn="xs">
-                {config.map((item: { name: string; link: string; }) => {
-                    return (<Link href={item.link}>
+                {config.map((item: { name: string; link: string; }, key:number) => {
+                    return (<Link href={item.link} key={key}>
                         <Text b color="inherit" className={"text-gray-600 hover:text-gray-800 transition-colors duration-200"}>
                             {item.name}
                         </Text>

@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                             >
                                 We are a group of students who are passionate about technology and want to make a difference in the world.
                                 Together, we are working to make Stuyvesant a better place to learn and grow as a student and in the community.
-                                Through a variety of websites and projects, we're making being a student at Stuyvesant easier, more community-oriented, and more fun.
+                                Through a variety of websites and projects, we&amp;apos;re making being a student at Stuyvesant easier, more community-oriented, and more fun.
                                 Our tight-knit group is fun, friendly, and laid-back, yet we are also hard-working and dedicated to our mission.
                             </Text>
                         </div>

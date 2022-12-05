@@ -10,7 +10,6 @@ import Navigation from "../components/Navigation/Navigation";
 import stuyactivitiesMockup from "../public/img/png/stuyactivities mockup.png";
 import Footer from "../components/Footer/Footer";
 import Link from "next/link";
-import anxiousPerson from "../public/img/vector/anxious person.svg";
 import React from "react";
 
 const Home: NextPage = () => {
