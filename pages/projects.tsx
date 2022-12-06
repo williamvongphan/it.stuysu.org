@@ -159,7 +159,7 @@ const Projects: NextPage = () => {
                                 p
                                 className={"text-xl text-center mb-4"}
                             >
-                                Appreciate the content in Mr. Blumm&apos;s Opportunities Bulletinm but don't want to scroll through 5,000 pages? Well, now you can access these opportunities much more easily! The Opportunities Bulletin is a website that allows students to see all the opportunities that are available to them, whether its scholarships, internships, or even jobs.
+                                Appreciate the content in Mr. Blumm&apos;s Opportunities Bulletinm but don&apos;t want to scroll through 5,000 pages? Well, now you can access these opportunities much more easily! The Opportunities Bulletin is a website that allows students to see all the opportunities that are available to them, whether its scholarships, internships, or even jobs.
                             </Text>
                             <div className={"w-full flex justify-center"}>
                                 <Link href={"https://opportunities.stuysu.org"}>
