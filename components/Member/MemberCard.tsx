@@ -68,7 +68,7 @@ export const MemberCard = (props: { member: MemberType }) => {
 
                 </div>
                 <div className="flex flex-col w-full h-full mt-4 text-left">
-                    <h2 className="mt-4 text-2xl font-bold text-gray-900">{props.member.name}</h2>
+                    <h2 className="mt-4 text-2xl font-bold text-gray-900 hubot">{props.member.name}</h2>
                     <h3 className="mt-2 text-xl font-medium text-gray-900">{props.member.title}</h3>
                     <div className="flex flex-wrap mt-4">
                         {props.member.roles.map((role: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined, key: React.Key | null | undefined) => (

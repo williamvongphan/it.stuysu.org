@@ -15,14 +15,13 @@ const Home: NextPage = () => {
     return (
         <div>
             <Header title="Credits" description="Giving credit where credit is due (and some more)" />
-            <div className={styles.container}>
                 <Navigation/>
                 <main className={styles.main}>
                     <div className={"container w-8/9 p-4 m-auto flex flex-wrap justify-center"}>
                         <div className={"w-3/5 min-w-[400px] mb-8"}>
                             <Text
                                 h1
-                                className={"text-7xl font-bold text-center xl:text-left"}
+                                className={"text-7xl font-bold text-center xl:text-left hubot"}
                                 css={{
                                     textGradient: "45deg, $blue400 0%, $red800 50%",
                                 }}
@@ -39,13 +38,37 @@ const Home: NextPage = () => {
                                 p
                                 className={"text-l text-center xl:text-left"}
                             >
-                                <b>Stuyvesant Student Union</b> - For giving us the opportunity to work on this project, and for providing us with the resources to do so.
+                                <Link href={"https://stuysu.org"} className={"text-blue-500"}><b>StuySU</b></Link> - For giving us the opportunity to work on this project, and for providing us with the resources to do so.
                             </Text>
                             <Text // @ts-ignore
                                 p
                                 className={"text-l text-center xl:text-left"}
                             >
                                 <Link href={"https://pennlabs.org"} className={"text-blue-500"}><b>Penn Labs</b></Link> - For creating an awesome homepage that we borrowed design elements from.
+                            </Text>
+                            <Text // @ts-ignore
+                                p
+                                className={"text-l text-center xl:text-left"}
+                            >
+                                <Link href={"https://nextui.org"} className={"text-blue-500"}><b>NextUI</b></Link> - For creating a beautiful React component library that we used to build this website.
+                            </Text>
+                            <Text // @ts-ignore
+                                p
+                                className={"text-l text-center xl:text-left"}
+                            >
+                                <Link href={"https://github.com/mona-sans"} className={"text-blue-500"}><b>GitHub</b></Link> - For hosting this codebase and providing us with amazing open-source fonts.
+                            </Text>
+                            <Text // @ts-ignore
+                                p
+                                className={"text-l text-center xl:text-left"}
+                            >
+                                <Link href={"https://vercel.com"} className={"text-blue-500"}><b>Vercel</b></Link> - For hosting this website and providing us with a free domain.
+                            </Text>
+                            <Text // @ts-ignore
+                                p
+                                className={"text-l text-center xl:text-left"}
+                            >
+                                <b>You, the visitor</b> - For taking the time to check out our website and for supporting us in our endeavors.
                             </Text>
                         </div>
                         <div className={"w-2/5"}>
@@ -58,9 +81,8 @@ const Home: NextPage = () => {
                             />
                         </div>
                     </div>
+                    <Footer />
                 </main>
-                <Footer />
-            </div>
         </div>
     )
 }

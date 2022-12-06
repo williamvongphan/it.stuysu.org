@@ -149,7 +149,7 @@ const TeamMember: NextPage = (props, context) => {
                             <div
                                 className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-none">
                                 <div>
-                                    <div className="text-gray-900 font-bold text-4xl mb-2">{member?.name}</div>
+                                    <div className="text-gray-900 font-bold text-4xl mb-2 hubot">{member?.name}</div>
                                     <p className="text-gray-700 text-2xl mb-2">{member?.title}</p>
                                     <div className="flex flex-wrap mt-2 mb-2">
 

@@ -3,9 +3,25 @@
   margin-bottom: 4rem;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
+
+@media (min-width: 1025px) {
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+  }
+}
+
+/* Between 1024px and 768px */
+@media (min-width: 1024px) and (max-width: 768px) {
+  .main {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem 0;
+  }
 }
 
 .footer {

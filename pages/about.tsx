@@ -16,7 +16,6 @@ const Home: NextPage = () => {
     return (
         <div>
             <Header title="About" description="About the Stuyvesant Student Union IT department" />
-            <div className={styles.container}>
                 <Navigation/>
                 <main className={styles.main}>
                     <div className={"container w-8/9 p-4 m-auto flex flex-wrap justify-center"}>
@@ -78,9 +77,8 @@ const Home: NextPage = () => {
                             </Text>
                         </div>
                     </div>
+                    <Footer/>
                 </main>
-                <Footer />
-            </div>
         </div>
     )
 }
